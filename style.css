@@ -3,6 +3,11 @@
     margin: 0%;
 }
 
+:root {
+    --cor-white: #fff;
+    --cor-black: #000000;
+}
+
 html, body {
     background-color: darkgrey;
     height: 100vh;
@@ -11,8 +16,8 @@ html, body {
 
 header {
     text-align: center;
-    background-color: black;
-    color: white;
+    background-color:var(--cor-black);
+    color: var(--cor-white);
 }
 
 header h1 {
@@ -29,7 +34,7 @@ header p {
 
 a {
     text-decoration: none;
-    color: white;
+    color: var(--cor-white);
     font-weight: bolder;
 }
 
@@ -47,7 +52,7 @@ section {
 }
 
 section.normal {
-    background-color: #ffffff;
+    background-color: var(--cor-white);
 }
 
 section.imagem {
@@ -61,8 +66,8 @@ section.imagem p {
 }
 
 footer {
-    background-color: black;
-    color: white;
+    background-color:var(--cor-black);
+    color: var(--cor-white);
     text-align: center;
     padding: 10px;
 }
