@@ -1,0 +1,68 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+html, body {
+    background-color: darkgrey;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+header h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: 'passion one';
+    font-size: 10%vh;
+
+}
+
+header p {
+    padding-bottom: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2rem;
+    padding-left: 30px;
+    font-family: "Sriracha", cursive;
+    font-size: 5%vh;
+}
+
+section.normal {
+    background-color: #ffffff;
+}
+
+section.imagem {
+    background-color: #00000056;
+}
+
+section.imagem p {
+    background-color: rgba(0, 0, 0, 0.432);
+    width: 400px;
+    
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
