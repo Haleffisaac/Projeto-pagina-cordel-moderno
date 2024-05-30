@@ -49,6 +49,11 @@ section {
     padding-left: 30px;
     font-family: "Sriracha", cursive;
     font-size: 5%vh;
+    background-attachment: fixed;
+}
+
+section > p {
+    padding-bottom:2em;
 }
 
 section.normal {
@@ -63,6 +68,17 @@ section.imagem p {
     background-color: rgba(0, 0, 0, 0.432);
     width: 400px;
     
+}
+
+#img01 {
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+#img02 {
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
 }
 
 footer {
